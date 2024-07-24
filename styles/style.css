@@ -161,13 +161,18 @@ text-align: left;
     position: relative;
   }
 
-  .elipse{
+  /* .elipse{
     background-color:#E6533C;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
     margin: 0.5rem 1rem;
-  }
+  } */
+   .play{
+    margin: 1.1rem;
+    scale: 200%;
+    padding-left: .3rem;
+   }
 .plus-a{ 
   display: flex;
   box-sizing: border-box;
@@ -677,21 +682,26 @@ text-align: left;
   margin-left: 1.5rem;
 }
 
-.elipse{
+/* .elipse{
   background-color:#E6533C;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
   margin: 0.2rem 1rem;
-}
+} */
+.play{
+  margin: .9rem;
+  scale: 200%;
+  padding-right: .3rem;
+ }
+
 .plus-a{ 
-  border: 2px solid red;
 display: flex;
 box-sizing: border-box;
 border-radius: .6rem;
 backdrop-filter: blur(1rem);
 background: rgba(48, 48, 48, 0.54);
-width: 10.5rem;
+width: 9rem;
 height: 4.5rem;
 position: absolute;
 text-align:start;
@@ -699,6 +709,7 @@ padding-top: 1rem;
 bottom: 42%;
 right: 51%;
 }
+
 #plus-a{  
   color: #FAFAF9;
   font-size: 1rem;
