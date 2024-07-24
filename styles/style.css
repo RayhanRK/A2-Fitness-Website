@@ -966,6 +966,7 @@ font-family: Inter;
 font-weight: 400;
 line-height: 1.5rem;
 text-align: left;
+padding: 12px 0px 12px 0px;
 }
 
 .on{
@@ -974,61 +975,69 @@ text-align: left;
   font-weight: 400;
   font-size: 1rem;
   padding: 1rem;
-  width: 14rem;
-  gap: 1rem;
+  width: 8.5rem;
+  /* gap: 1rem; */
   margin-bottom: 1rem;
   border-radius: .5rem;
+  padding: 12px 20px 12px 20px;
   }
+
 .kg{
   color: rgba(255, 255, 255, .6);
   font-weight: 400;
   font-size: 1rem;
-  padding: 1rem;
-  width: 13rem;
-  gap: 1rem;
+  /* padding: 1rem; */
+  width: 8rem;
+  /* gap: 1rem; */
   margin-bottom: 1rem;
   border-radius: .5rem;
+  padding: 12px 20px 12px 20px;
   }
 
 .select1{
   color: rgba(255, 255, 255, .6);
   font-weight: 400;
   font-size: 1rem;
-  padding: 1rem 0rem;
-  width: 15rem;
+  /* padding: 1rem 0rem; */
+  width: 10.6rem;
   border-radius: .5rem;
   background-color:#393939;
+  padding: 12px 20px 12px 20px;
 }
 .select2{
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 1rem;
-  padding: 1rem;
-  width: 32rem;
+  /* padding: 1rem; */
+  width: 23.7rem;
   border-radius: .5rem;
   background-color: #393939;
+  padding: 12px 20px 12px 20px;
 }
 .on, .kg{
   background-color:#393939;
+  padding: 12px 20px 12px 20px;
+  
 }
 
 .four{
-        width: 32rem;
+        width: 22rem;
         display: grid;
-        grid-template-columns: repeat(2, 15rem);
-        grid-template-rows: repeat(2, 2rem) 3rem;
+        grid-template-columns: repeat(2, 11rem);
+        grid-template-rows: repeat(2, 2rem) .5rem;
         gap: 2rem;
        
     }
+
     #calculate-btn{
       background-color: #E6533C;
       color:rgb(255, 255, 255);
-      font-size: 1.1rem;
-      font-weight: 600;
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      font-weight: 500;
       border-radius:2rem ;
-      padding: 1rem 3rem;
-      border: none;
-      margin-bottom: 3rem;
+      padding: .8rem 4rem;
+ 
     }
 
 /*.......... BMI ResponsiveChart Style Ends ...........*/
@@ -1047,3 +1056,4 @@ text-align: left;
       display: none;
    }  */
   }
+
