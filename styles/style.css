@@ -73,10 +73,7 @@
      font-family: Inter;
      font-size: 3rem;
      font-weight: 900;
-/* line-height: 120%;
-text-align: left; */
   }
- 
   
   .txt-lite{
     color: rgba(255, 255, 255, 0.5);
@@ -161,18 +158,12 @@ text-align: left;
     position: relative;
   }
 
-  /* .elipse{
-    background-color:#E6533C;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    margin: 0.5rem 1rem;
-  } */
    .play{
     margin: 1.1rem;
     scale: 200%;
     padding-left: .3rem;
    }
+
 .plus-a{ 
   display: flex;
   box-sizing: border-box;
@@ -187,12 +178,13 @@ text-align: left;
   bottom: 12%;
   right: 80%;
 }
+
 #plus-a{  
     color: #FAFAF9;
     font-size: 1.5rem;
-    font-weight: 900;
-    
+    font-weight: 900;   
 }
+
 .plus-b{ 
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -203,8 +195,7 @@ text-align: left;
   text-align: center;
   padding:.5rem 0;
    top: 20%;
-   left: 50%;
-   
+   left: 50%;   
 }   
 
 #plus-b{
@@ -220,13 +211,11 @@ text-align: left;
    }
 
    .habit-title{
-    border: 2px solid red;
     /* display: flex; */
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 2rem;
-    
+    margin: 2rem;  
    }
 
    .habit-title p{
@@ -247,7 +236,6 @@ text-align: left;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
    }
 
    .circle-card h3{   
@@ -265,6 +253,7 @@ text-align: left;
     border-radius: 50%;
     margin-bottom: 1rem;
    }
+
    /* habit section ends */
 
    /* Run section Style starts */
@@ -343,7 +332,6 @@ text-align: left;
 /* BMI Chart Style Starts */
 
 .chart-sec-container{
-  /* background-color: #212121; */
   background: rgb(34, 34, 34);
 }
 
@@ -375,7 +363,7 @@ table{
 
 .grey{
 /* color: gray; */
-color: #787b75;
+color:rgba(255, 255, 255, 0.5);
 font-weight: 400;
 font-size: 1rem;
 padding: 1rem;
@@ -514,11 +502,8 @@ padding: 1rem;
 
 .team-img-container img{ border: 2px solid  blue;
   width: 90%;
-  height: 80%   
-  
+  height: 80%     
 }
-
-
 
 /* Teams section ends */
 
@@ -584,26 +569,14 @@ hr{
   /* padding-bottom: 2rem 0; */
 }
 
-/* 
-Responsive Breakpoint:
-Small device: upto 576 px       Medium Device: 576px to 992 px 
-Large Device: above 993 px 
- */
-
   /* Responsive Media Query */
-
-  /* .hide{
-    display: none;
-  } */
-
-
-  /*........... Small devices ...................................................*/
+  /*................................... Small devices ...................................................*/
   @media screen and (max-width:576px){
  .ham-burger{
       color:white;
       display: block;
       align-content: center;
-    
+    scale: 150%;
   }
   .nav-menus{
     display: none;
@@ -643,7 +616,7 @@ text-align: left;
   line-height: 1.3rem;
 }
 
-/* .btn bt */
+/* button resposive styles */
 
 .button{ 
  
@@ -682,13 +655,6 @@ text-align: left;
   margin-left: 1.5rem;
 }
 
-/* .elipse{
-  background-color:#E6533C;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  margin: 0.2rem 1rem;
-} */
 .play{
   margin: .9rem;
   scale: 200%;
@@ -737,20 +703,342 @@ padding:.5rem 0;
   }
 
   .txt-lite{
-    color:rgba(239, 237, 232, 0.65);
+    /* color:rgba(239, 237, 232, 0.65); */
+    color:rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: .7rem;
+    font-size: .5rem;
     font-weight: 400;
 }
 
+.habit-container{
+  margin-bottom: 6rem;
+ }
+
+ .habit-title{
+  color:
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -.1rem;
+  
+ }
+
+ .habit-title p{
+  font-size: .8rem;
+ }
+
+ .title-1{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.txt-lite{
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: .9rem;
+ font-weight: 400;
+}
+
+.circle-sec-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+ }
+
+ .circle-card {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+
+ }
+
+ .circle-card h3{   
+  font-family: "Inter", sans-serif;
+  letter-spacing:1px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1.8rem;
+  margin-bottom: .5rem;
+ }
+
+ .img-circle{
+  border-radius: 2px solid rgb(200, 196, 196);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+  
+ }
+ /* habit resposive  section ends */
+
+  /*..... Run resposive section Style starts ......*/
+
+  .run-section-main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 7rem;
+    width: 90%; 
+    height: 34rem;
+    justify-content: center;
+    margin:0 auto; 
+   }
+   
+ .run-content{
+  margin-top: -1rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .run-text-content{
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.2rem; */
+  justify-content: center;
+  justify-items: center;
+  width: 90%;
+  padding:0 2rem;  
+}
+
+.title-run{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: left;
+  /* margin-top: 2rem; */
+}
+.run-img-container{
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content:center;
+  align-items: center;
+}
+
+.run-img-container img{
+  width: 100%;
+  height: 80%;
+  border-radius: 10px; 
+}
+
+#calculate-btn{
+  background-color: #E6533C;
+  color:rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius:2rem ;
+  padding: .8rem 7rem;
+  border: none;
+  margin: 1rem 0;
+}
+/*....Run Responsive section Style Ends.... */
 
 
+/*...... BMI Responsive Calculator Style starts .....*/
+.BMI-container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.BMI-txt{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: -.1rem;
+  margin-bottom: .10rem;
+}
+.BMI-txt p{ 
+ margin-top: .8rem;
+ line-height: 24px;
+ letter-spacing: 1px;
+ text-align: left;
+}
+
+.title-1{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.txt-lite{
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: .85rem;
+ font-weight: 400;
+}
+
+/*...... BMI Responsive Calculator Style Ends .......*/
+
+* BMI Calculator Style Ends */
+
+
+/*.......... BMI Responsive Chart Style Starts...........*/ 
+
+.chart-sec-container{
+  background: rgb(34, 34, 34);
+}
+
+.full-BMI-container{
+  border: 3px solid purple;
+  width: 90%; 
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  /* margin-bottom: 4rem; */
+}
+
+.BMI-title{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1.8rem 0;
+ 
+}
+/* Table styles */
+
+table{
+  border-collapse: collapse;
+}
+
+.grey{
+/* color: gray; */
+color:rgba(255, 255, 255, 0.5);
+font-weight: 400;
+font-size: .8rem;
+padding: 1rem;
+}
+.wh{
+color: white;
+font-weight: 500;
+font-size: .9rem;
+text-align: start;
+padding: 1rem;
+}
+
+.BMI-chart{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ...calculate-BMI responsive style starts.....  */
+
+.calculate-BMI{
+  border: 3px solid blue;
+ 
+}
+.calculate-BMI .txt-lite{
+
+color:rgba(255, 255, 255, 0.5)  
+font-size: .6rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.9px;
+text-align: left; 
+}
+
+.inputs{ 
+/* margin: 2rem 0; */
+font-size: 1rem;
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-weight: 400;
+line-height: 1.5rem;
+text-align: left;
+}
+
+.on{
+  /* color: #787b75; */
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 14rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  }
+.kg{
+  color: rgba(255, 255, 255, .6);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 13rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  }
+
+.select1{
+  color: rgba(255, 255, 255, .6);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 0rem;
+  width: 15rem;
+  border-radius: .5rem;
+  background-color:#393939;
+}
+.select2{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 32rem;
+  border-radius: .5rem;
+  background-color: #393939;
+}
+.on, .kg{
+  background-color:#393939;
+}
+
+.four{
+        width: 32rem;
+        display: grid;
+        grid-template-columns: repeat(2, 15rem);
+        grid-template-rows: repeat(2, 2rem) 3rem;
+        gap: 2rem;
+       
+    }
+    #calculate-btn{
+      background-color: #E6533C;
+      color:rgb(255, 255, 255);
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius:2rem ;
+      padding: 1rem 3rem;
+      border: none;
+      margin-bottom: 3rem;
+    }
+
+/*.......... BMI ResponsiveChart Style Ends ...........*/
 
 
 
   
+  } 
+  
 
-}
   /* Large Devices */
   @media screen and(min-width:993px) and(max-width:1440px){
 
