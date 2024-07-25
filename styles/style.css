@@ -451,48 +451,59 @@ padding: 1rem;
 
 /* Teams section starts */
 
-
 .team-container{
-  border: 2px solid aqua;
   width: 75%;
   margin:0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
 }
 
-.team-txt-content{ border: 2px solid goldenrod;
+.team-txt-content{ 
   display: flex;
   flex-direction: column;
+  gap: 1.6rem;
   justify-content: center;
   justify-items: center;
   align-items: center;
   text-align: center;
   margin: 4rem 0;
+  line-height: 1.5rem;
 }
 
-.team-img-container{  border: 2px solid orangered;
+.team-img-container{  border: 2px solid yellow;
   display: grid;
+  gap: 1.4rem;
   grid-template-columns: repeat(3, 1fr);
-  
+  border-radius: 1.2rem;
+  background-color: #1a1a1a;
+  margin-bottom: 2rem;
+  padding: 1.4rem ;
 }
-.pic{  border: 2px solid rgb(111, 101, 97);
-   padding-left: 2rem;
-   
+.pic{  
+     position: relative;
 }
+
+.txt-lap{ position: absolute;
+  bottom: 13%;
+  left: 8%;
+  }
+
 .name{
   color:#FAFAF9;
-  font-size: 1.4rem;
-  
+  font-size: 1.3rem; 
 }
+
 .job{
-  color:#787b75;
+  color:#acacac;
   font-size: .9rem;
 }
 
-.team-img-container img{ border: 2px solid  blue;
-  width: 90%;
-  height: 80%     
+.team-img-container img{ border: 2px solid red;
+  border-radius: 1.2rem;
+  width: 98%;
+  height: 98%  
+
 }
 
 /* Teams section ends */
@@ -503,7 +514,7 @@ padding: 1rem;
   background-color:rgba(255, 255, 255, 0.1);
 }
 
-.footer-container{ border: 2px solid blue;
+.footer-container{ 
   width: 75%;
   margin: 3rem auto;
   display: flex;
@@ -516,6 +527,16 @@ padding: 1rem;
   font-weight: 800;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.footer-txt-lite{ 
+  color:rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: .8rem;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 1.5rem;
+  
 }
 .foterlist{
   color: #878888;
@@ -690,6 +711,8 @@ padding:.5rem 0;
     font-family: Inter;
     font-size: .6rem;
     font-weight: 400;
+    letter-spacing: 0.3px;
+    
   }
 
 .habit-container{
@@ -1004,6 +1027,68 @@ padding: 12px 0px 12px 0px;
 
 /*.......... BMI ResponsiveChart Style Ends ...........*/
 
+/*................... Responsive Teams section starts............... */
+
+.team-container{
+  width: 90%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.team-txt-content{ 
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 4rem 0;
+  line-height: 1.5rem;
+}
+
+.team-img-container{  border: 2px solid yellow;
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 1.2rem;
+  background-color: #1a1a1a;
+  margin-bottom: 2rem;
+  padding: 1.4rem ;
+  /* margin-left: 1.25rem; */
+}
+.pic{  
+     position: relative;
+}
+
+.txt-lap{ position: absolute;
+  bottom: 13%;
+  left: 8%;
+  }
+
+.name{
+  color:#FAFAF9;
+  font-size: 1.3rem; 
+}
+
+.job{
+  color:#acacac;
+  font-size: .9rem;
+}
+
+.team-img-container img{ border: 2px solid red;
+  border-radius: 1.2rem;
+  width: 98%;
+  height: 98%  
+
+}
+
+/*............. Responsive Teams section ends............. */
+
+/* Footer section */
+
 
 /*..........Responsive Footer Starts ...........*/
 
@@ -1027,13 +1112,13 @@ padding: 12px 0px 12px 0px;
   margin-bottom: 1.5rem;
 }
 
-.txt-lite{
-  color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: .85rem;
-  font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.2px;
+.footer-txt-lite{ 
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: .85rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: 0.2px;
 /* text-align: left; */
 }
 
@@ -1054,7 +1139,6 @@ letter-spacing: 0.2px;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-
 }   
 
 .copyright{
@@ -1069,7 +1153,6 @@ hr{
   color: #373736b5;
   width: 90%;
   margin-left: 5%;
-
 }
 
 
