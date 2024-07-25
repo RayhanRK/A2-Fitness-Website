@@ -471,7 +471,7 @@ padding: 1rem;
   line-height: 1.5rem;
 }
 
-.team-img-container{  border: 2px solid yellow;
+.team-img-container{  
   display: grid;
   gap: 1.4rem;
   grid-template-columns: repeat(3, 1fr);
@@ -499,7 +499,7 @@ padding: 1rem;
   font-size: .9rem;
 }
 
-.team-img-container img{ border: 2px solid red;
+.team-img-container img{
   border-radius: 1.2rem;
   width: 98%;
   height: 98%  
@@ -1049,7 +1049,7 @@ padding: 12px 0px 12px 0px;
   line-height: 1.5rem;
 }
 
-.team-img-container{  border: 2px solid yellow;
+.team-img-container{ 
   display: grid;
   gap: 1.4rem;
   grid-template-columns: repeat(1, 1fr);
@@ -1078,7 +1078,7 @@ padding: 12px 0px 12px 0px;
   font-size: .9rem;
 }
 
-.team-img-container img{ border: 2px solid red;
+.team-img-container img{ 
   border-radius: 1.2rem;
   width: 98%;
   height: 98%  
