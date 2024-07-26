@@ -508,6 +508,70 @@ padding: 1rem;
 
 /* Teams section ends */
 
+/*----------- Unique section starts------------- */
+
+.whites-container{
+  background-color: rgb(255, 255, 255);
+  display: flex; 
+  justify-content: center;   
+  margin: 4.5rem 0 6.5rem;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  padding: 2rem 0 3.25rem 0; 
+}
+
+.app-txt{
+  padding-right: 10rem;
+  display: flex;
+  flex-direction: column; 
+}
+
+.tag-txt{   
+  color: black;
+  font-size: 1rem;
+  font-family: 'Miama';
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.app-title{
+  color: rgba(0, 0, 0, 0.861);
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.app-des{
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1rem;
+}
+
+.me{ 
+  border: 3px solid gray;
+  border-radius: 1rem;
+  padding: .25rem;
+  background-color: black;
+  margin-right: 1.5rem;
+}
+
+.mob{
+  margin-top: 1.8rem;
+  /* margin-left:5%; */
+}
+
+/*----------- Unique section Ends -----------*/
+
+
 /* Footer section */
 
 .fullfooter{
@@ -578,14 +642,14 @@ hr{
       color:white;
       display: block;
       align-content: center;
-    scale: 150%;
+      scale: 150%;
   }
   .nav-menus{
     display: none;
   }
 
   .navbar-container{
-    /* max-width: 100%; */
+    max-width: 90%;
     display: flex;
     margin: 3rem auto;
     justify-content: space-between;
@@ -598,12 +662,12 @@ hr{
  /* background: rgba(119, 119, 119, 0); */
  background: linear-gradient(45deg, rgb(17, 17, 17),
  rgba(119, 119, 119, 0) 50%);
- margin-left: 5%;
+ /* margin-left: 5%; */
 }
 
 .ban-content{
-  width: 60%;
-  margin-left: 2rem;
+  width: 80%;
+  margin-left: 1.8rem;
 }
 
 .ban-title{ color: rgb(255, 255, 255);
@@ -636,7 +700,7 @@ text-align: left;
   width: 150%;
   display: flex;
   /* gap: .75rem; */
-  justify-content:space-between;
+  justify-content:flex-start;
  
 }
 
@@ -1017,10 +1081,10 @@ padding: 12px 0px 12px 0px;
     #calculate-btn{
       background-color: #E6533C;
       color:rgb(255, 255, 255);
-      margin-bottom: 1.25rem;
+      margin: 1.5rem 0;
       font-size: 1rem;
       font-weight: 500;
-      border-radius:2rem ;
+      border-radius:2rem;
       padding: .8rem 4rem;
  
     }
@@ -1085,12 +1149,81 @@ padding: 12px 0px 12px 0px;
 
 }
 
-/*............. Responsive Teams section ends............. */
+/*..... Responsive Teams section ends..... */
 
-/* Footer section */
+/*----------- Unique section Responsive style starts------------- */
+
+.whites-container{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex; 
+  justify-content: center;   
+  padding-top: 3.5rem 0rem; 
+  margin: 1.5rem 0rem; 
+ 
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3.25rem;
+}
+
+.app-txt{
+  padding-left: 8rem;
+  display: flex;
+  flex-direction: column; 
+}
+
+.tag-txt{   
+  color: black;
+  font-family: 'Miama';
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app-title{
+  color: rgba(0, 0, 0, 0.861);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+}
+
+.app-des{
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.app-btn{
+  margin-top: 1.5rem;
+}
+
+.me{ border: 3px solid gray;
+  border-radius: 1rem;
+  padding: .25rem;
+  background-color: black;
+  scale: 70%;
+}
+
+.mob{
+  margin-top: 1.8rem;
+  padding-right:12%;
+  margin-top: 2.5rem;
+}
 
 
-/*..........Responsive Footer Starts ...........*/
+/*------- Unique section Responsive style Ends -----------*/
+
+
+/*..........Responsive Footer Section Styles Starts ...........*/
 
 .fullfooter{
   background-color:rgba(255, 255, 255, 0.1);
@@ -1155,8 +1288,7 @@ hr{
   margin-left: 5%;
 }
 
-
- /*..........Responsive Footer Starts ...........*/ 
+ /*..........Responsive Footer Ends ...........*/ 
   } 
   
 
