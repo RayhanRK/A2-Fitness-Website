@@ -32,10 +32,6 @@
 
   /* Common Shared styles */
 
-  /* .display-flex{
-    display: flex;
-  } */
-
   .button{
     background-color: #E6533C;
     color:rgb(255, 255, 255);
@@ -121,9 +117,9 @@
     margin-right: 50px;
 }
 
-  /*  navbar style ends here  */
+  /*  Navbar style ends here  */
 
-  /* banner section style starts */
+  /*Banner section style starts */
 
   .banner-container{
     display: flex;
@@ -203,7 +199,7 @@ text-align: left;
     font-weight: 900;
 }
 
-   /* banner section style ends */
+   /*Banner section style ends */
 
    .habit-container{
     margin-bottom: 6rem;
@@ -214,11 +210,11 @@ text-align: left;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 2rem;  
+    margin: 2.5rem;  
    }
 
    .habit-title p{
-    margin: 1rem;
+    margin: 1.5rem;
    }
 
    .circle-sec-container{
@@ -243,13 +239,16 @@ text-align: left;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 500;
-    margin-bottom: .5rem;
+    margin: 1.25rem;
    }
 
    .img-circle{
     border-radius: 2px solid rgb(200, 196, 196);
     border-radius: 50%;
     margin-bottom: 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin: 0 auto;
    }
 
    /* habit section ends */
@@ -261,11 +260,11 @@ text-align: left;
     width: 75%; 
     justify-content: center;
     margin:0 auto;
-    height: 300px;
+    height: 23rem;
    }
    
  .run-content{
-  height: 17rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   border-radius: 1rem;
@@ -282,7 +281,14 @@ text-align: left;
   padding:0 2rem;
   
 }
-
+.txt-lite{
+  color: rgba(255, 255, 255, 0.45);
+  font-family: Inter;
+  font-size: .85rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+ }
+ 
 .title-run{
   color: rgb(255, 255, 255);
   font-size: 2.5rem;
@@ -298,25 +304,26 @@ text-align: left;
 
 }
   .run-img-container img{
-    width: 80%;
-    border-radius: 10px;  
+    height: 16.5rem;
+    width:18rem;
+    border-radius: 1rem;  
   }
   
 /* Run section Style Ends */
 
 /* BMI Calculator Style starts */
 .BMI-container{
-  width: 75%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 4rem auto;
+  margin: 2.5rem auto;
 }
 .BMI-txt{ 
   display: flex;
   flex-direction: column;
   margin-left: 9rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 .BMI-txt p{ 
  margin-top: .8rem;
@@ -336,7 +343,7 @@ text-align: left;
   display: flex;
   justify-content: center;
   gap: 5rem;
-  /* margin-bottom: 4rem; */
+  
 }
 
 .BMI-title{
@@ -467,7 +474,7 @@ padding: 1rem;
   justify-items: center;
   align-items: center;
   text-align: center;
-  margin: 4rem 0;
+  margin: 5rem 0 3.5rem;
   line-height: 1.5rem;
 }
 
